@@ -17,6 +17,7 @@
 body{
     background-color: var(--bg-color);
     overflow-x: hidden;
+    font-family: 'poppins', sans-serif;
 }
 
 section{
@@ -29,7 +30,7 @@ header{
     justify-content: space-between;
     background-color: var(--bg-color2);
     padding: 1rem .5rem;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;

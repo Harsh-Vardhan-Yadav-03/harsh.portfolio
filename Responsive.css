@@ -1,0 +1,54 @@
+@media (max-width: 426px) {
+    .navbar{
+        display: none;
+    }
+    .hero {
+        width: fit-content;
+        height: 140vh;
+        display: flex;
+        flex-direction: column;
+        padding:88px 18px 17px ;
+    }
+
+    .box{
+        width: 665px;
+        gap: 10px;
+    }
+
+    .box h5{
+        font-size: 40px;
+    }
+    .box h1{
+        font-size: 65px;
+    }
+    .box h4{
+        font-size: 40px;
+    }
+    .about{
+        width: 170vw;
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 3% 2rem;
+        height: 140vh;
+    }
+    .content h1{
+        font-size: 45px;
+    }
+    .content h3{
+        font-size: 40px;
+    }
+    .content p{
+        margin: 25px 0;
+        width: 150vw;
+    }
+
+    .main-btn btn2{
+        font-size: 15px;
+        padding: 20px 40px 20px;
+        border-radius: 35px;
+    }
+    .services{
+        width: 150vw;
+        height: 140vh;
+    }
+}
