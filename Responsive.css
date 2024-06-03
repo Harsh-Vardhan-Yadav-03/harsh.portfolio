@@ -16,6 +16,10 @@
         gap: 10px;
     }
 
+    .bx {
+        font-size: 50px;
+    }
+
     .box h5 {
         font-size: 40px;
     }
@@ -26,6 +30,10 @@
 
     .box h4 {
         font-size: 40px;
+    }
+
+    .box3 img {
+        padding: 20px 0;
     }
 
     .about {
@@ -42,6 +50,7 @@
 
     .content h3 {
         font-size: 40px;
+        color: black;
     }
 
     .content p {
@@ -49,7 +58,7 @@
         width: 150vw;
     }
 
-    .main-btn btn2 {
+    .main-btn {
         font-size: 15px;
         padding: 20px 40px 20px;
         border-radius: 35px;
@@ -59,7 +68,8 @@
         width: 170vw;
         height: 180vh;
     }
-    .services h1{
+
+    .services h1 {
         font-size: 65px;
     }
 
@@ -69,53 +79,70 @@
         height: 150vh;
         gap: 25px;
     }
-    .main-box{
+
+    .main-box {
         width: 130vw;
         border-radius: 50px;
     }
-    .project{
+
+    .project {
         width: 170vw;
         height: 140vh;
     }
-    .img1 img{
+
+    .img1 img {
         width: 150vw;
         height: 50vh;
     }
-    .vr{
+
+    .vr {
         /* display: none; */
         transform: rotate(0deg);
         width: 150vw;
         height: 2px;
     }
-    .contact{
+
+    .contact {
         width: 170vw;
     }
-    .contact_section{
+
+    .contact_section {
         flex-direction: column;
     }
-    .block{
+
+    .block {
         font-size: 35px;
     }
-    .text_field{
+
+    .text_field {
+        border: 4px solid grey;
         width: 160vw;
         height: 85px;
     }
-    .btn3
-    {
+
+    .btn3 {
         width: 55vw;
         padding: 20px;
         font-size: 30px;
     }
-    .detail_box{
+
+    .detail_box {
         width: auto;
         gap: 10px;
         padding: 70px;
     }
-    .detail_box .bx{
+
+    .detail_box .bx {
         font-size: 30px;
     }
-    .link1 .bx{
+
+    .link1 .bx {
         padding: 30px 0;
         font-size: 55px;
+    }
+
+    .Copyright {
+        height: 25px;
+        padding: 4px;
     }
 }
