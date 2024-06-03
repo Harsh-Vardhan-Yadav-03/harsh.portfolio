@@ -337,11 +337,13 @@ header h1{
 .text_field{
     border: 2px solid grey;
     border-radius: 10px;
-    height: 40px;
-    width: 80%;
+    /* height: 40px;
+    width: 80%; */
     text-align: left;
     font-family: Arial, sans-serif;
     font-weight: medium;
+    width: 350px;
+    height: 30px ;
 }
 
 .link1{
