@@ -11,14 +11,34 @@
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <h1>Harsh Vardhan Yadav</h1>
-        <nav class="navbar">
+        <div class="menu-icon">
+            <a href=""><i class='bx bx-menu' onclick="toggleMenu()"></i></a>
+        </div>
+        <nav class="navbar" id ="menuList">
             <a href="#" class="active">Home</a>
             <a href="#">About</a>
             <a href="#">Services</a>
             <a href="#">Project</a>
             <a href="#">Contact</a>
+        </nav>
+    </header> -->
+    <header>
+        <h1>Harsh Vardhan Yadav</h1>
+        <nav class="navbar">
+            <div class="menu-icon" id="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <section class="hero">
@@ -148,6 +168,24 @@
         <p class="Copyright">&copy; Harsh Vardhan Yadav |All Rights
             Reserved.</p>
     </section>
+
+
+    <script>
+        // let menuList = document.getElementById("menulist")
+        // menuList.style.maxHeight = "0px";
+
+        // function toggleMenu(){
+        //     if(menuList.style.maxHeight = "0px"){
+        //         menuList.style.maxHeight = "300px";
+        //     }
+        //     else{
+        //         menuList.style.maxHeight = "0px";
+        //     }
+        // }
+        document.getElementById('menu-icon').addEventListener('click', function() {
+    document.getElementById('nav-links').classList.toggle('active');
+});
+    </script>
 </body>
 
 </html>
