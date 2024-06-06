@@ -24,100 +24,45 @@ section{
     height:100vh;
 
 }
-/* 
-header{
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--bg-color2);
-    padding: 1rem .5rem;
-    position: sticky;
+
+.header {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 100;
-}
-header h1{
-    color: var(--text-color2);
-}
-.menu-icon{
-    color: #fff;
-    font-size: 30px;
-}
-.menu-icon{
-    display: none;
-}
-#menuList{
-    transition: all 0.5s ;
-} */
-header {
+    height: 12px;
+    padding: 2rem 30px;
+    background: var(--bg-color2);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #012677;
-    color: white;
-}
-
-.navbar {
-    display: flex;
-    align-items: center;
-}
-
-.navbar .nav-links {
-    list-style: none;
-    display: flex;
-}
-
-.navbar .nav-links li {
-    margin-left: 20px;
-}
-
-.navbar .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-}
-
-.navbar .nav-links a.active {
-    border-bottom: 2px solid white;
-}
-
-.menu-icon {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-}
-
-.menu-icon .bar {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 4px 0;
-}
-
-.navbar{
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-
-}
-
-.navbar a{
-    color: white;
+    z-index: 100;
+  
+  }
+  .logo {
     font-size: 1.5rem;
-    font-weight: 1000;
-}
-.navbar .active{
-    color: var(--text-color2);
-}
-.navbar a:hover{
-    cursor: pointer;
-    color: var(--text-color2);
-    transform: scale(1.1);
-    text-shadow: 2px 2px 2rem var(--text-color2);
-}
+    color: white;
+    font-weight: 600;
+    cursor: default;
+  }
+  
+  .navbar a {
+    font-size: 1rem;
+    color: var(--text-bg-color);
+    margin-left: 2rem;
+    transition: .3s;
+  }
+  
+  .navbar a:hover,
+  .navbar a.active {
+    color: var(--main-bg-color);
+  }
+  
+  #menu-icon {
+    font-size: 3.6rem;
+    color: var(--text-bg-color);
+    display: none;
+  }
 
 .hero{
     display: flex;
